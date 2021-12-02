@@ -1,6 +1,6 @@
-// Script by Pepe
+// Script by Aks26
 // 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 | 𝙳𝙾𝙽'𝚃 𝙲𝙷𝙰𝙽𝙶𝙴 𝙲𝚁𝙴𝙳𝙸𝚃𝚂🙂
-// ©Pepe Bot 
+// ©Aks26 Bot 
 const {
   WAConnection: _WAConnection,
   MessageType,
@@ -133,9 +133,9 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "917736622139"; 
-owner = "917736622139"; 
-fakeyoi = "Pepe Sir"; 
+targetpc = "918891665594"; 
+owner = "919947379686"; 
+fakeyoi = "Aks26 "; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -144,7 +144,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@917736622139"; 
+nomorowner1 = "@919947379686"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n❑︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -286,7 +286,7 @@ const body = (type === 'listResponseMessage' && mek.message.listResponseMessage.
     const antivirtex = JSON.parse(
       fs.readFileSync("./database/antivirtex.json")
     );
-    
+     
     const kickarea = JSON.parse(fs.readFileSync("./database/antibule.json"));
     const nsfww = JSON.parse(fs.readFileSync('./database/nsfww.json'))
     const bancht = JSON.parse(fs.readFileSync('./database/banchat.json'));
@@ -343,7 +343,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await xeon.chats.all();
-    const ownerNumber = [`917736622139@s.whatsapp.net`]
+    const ownerNumber = [`919947379686@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(xeon, mek);
     const groupMetadata = isGroup ? await xeon.groupMetadata(from) : "";
@@ -552,7 +552,7 @@ const finv = {
       message: {
         audioMessage: {
           mimetype: "audio/ogg; codecs=opus",
-          seconds: 999999,
+          seconds: 1,
           ptt: "true",
         },
       },
@@ -566,7 +566,7 @@ const finv = {
         videoMessage: {
           title: fake,
           h: `Hmm`,
-          seconds: "99999",
+          seconds: "1",
           gifPlayback: "true",
           caption: fake,
           jpegThumbnail: thumb,
@@ -941,7 +941,7 @@ xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Whatsapp-BOT\n𝙿𝙴𝙿𝙴 𝚂𝙸𝚁😎. (@nnda.krnwn_) •Instagram photos and Videos`,
+                "title": `Whatsapp-BOT\nAks26 Mess . (@nnda.krnwn_) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
@@ -956,12 +956,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/917736622139`,
+                "body": `wa.me/918891665594`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/917736622139`,
+                "mediaUrl": `wa.me/918891665594`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/917736622139`,
+                "sourceUrl": `wa.me/917736622139/`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -1302,7 +1302,7 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/user/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const anuu = `「 *USER REGISTRATION* 」
-*Thank you for registering in the 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁😎 Database*
+*Thank you for registering in the Aks26 Bot Database*
 
 ▢ *ɴᴀᴍᴇ :* ${pushname}
 ▢ *ᴀᴘɪ :* +${sender.split('@')[0]}
@@ -1523,7 +1523,7 @@ ${readmore}
 │ ⬡ ${prefix}ytsilver text
 │ ⬡ ${prefix}t3d text
 │ ⬡ ${prefix}logoa text|text
-│ ⬡ ${prefix}marvel text|text
+│ ⬡ ${prefix}marvel text|text 
 │ ⬡ ${prefix}leavest text
 │ ⬡ ${prefix}neon2 text
 │ ⬡ ${prefix}wall text
